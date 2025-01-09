@@ -13,7 +13,7 @@
 .text-primary{
     color: rgb(249, 125, 1);
 }
-..secondary-bg
+.secondary-bg
 {
     background-color: #fff8f3;
 }
@@ -28,6 +28,7 @@ nav{
 .nav-title{
     font-weight: 800;
     font-size: 45px;
+    margin-left: 200px;
 }
 nav ul{
     display: flex;
@@ -56,8 +57,7 @@ nav li a{
     justify-content: space-between;
     margin: 0 35px 0 200px;
 }
-.banner-content
-{
+.banner-content{
     max-width: 580px;
 }
 .banner-greetings{
@@ -67,7 +67,6 @@ nav li a{
 .banner-title{
     font-size: 85px;
     font-weight: bold;
-
 }
 .banner-pic{
     width: 580px;
@@ -94,6 +93,7 @@ nav li a{
     padding: 130px 150px;
     margin-top: 130px;
     /* border-color: #474747; */
+    /* background-color: white; */
 }
 /* main */
 main{
@@ -106,4 +106,26 @@ main{
 .about-items{
     display:flex;
     justify-content: space-around;
+}
+.my-do{
+    text-align: center;
+}
+.my-description{
+    text-align: center;
+}
+.skills{
+    border-radius: 10px;
+    text-align: center;
+    padding: 130px 150px;
+    margin-top: 130px;
+
+}
+.skills-container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.skill{
+    text-align: left;
+    gap: 24px;
 }
